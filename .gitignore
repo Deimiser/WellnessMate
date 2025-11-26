@@ -26,3 +26,19 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Virtual environment
+venv/
+
+# SQLite database
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
