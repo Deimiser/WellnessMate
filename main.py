@@ -1,6 +1,10 @@
 from src.agents.data_agent import DataAgent
 from src.agents.llm_analytics_agent import LLMAnalyticsAgent
 from src.agents.llm_coach_agent import LLMCoachAgent
+from src.db.database import get_db
+from src.db import crud
+from sqlalchemy.orm import Session
+
 
 def run_pipeline():
     # Load data
